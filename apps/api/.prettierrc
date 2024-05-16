@@ -7,6 +7,6 @@
   "bracketSameLine": false,
   "vueIndentScriptAndStyle": true,
   "trailingComma": "all",
-  "endOfLine": "crlf",
+  "endOfLine": "auto",
   "printWidth": 100
 }

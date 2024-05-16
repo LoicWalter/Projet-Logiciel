@@ -6,10 +6,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   root: true,
   env: {
     node: true,
@@ -24,8 +21,6 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        endOfLine: 'auto',
-        printWidth: 70,
         singleQuote: true,
         tabWidth: 2,
         semi: true,
@@ -34,7 +29,7 @@ module.exports = {
         bracketSameLine: false,
         vueIndentScriptAndStyle: true,
         trailingComma: 'all',
-        endOfLine: 'crlf',
+        endOfLine: 'auto',
         printWidth: 100,
       },
     ],

@@ -19,7 +19,6 @@ Ce projet est un mono-repo contenant les éléments suivants :
 
 1. Cloner le projet
 2. Installer les dépendances de l'API et de l'application web
-3. Lancer les conteneurs Docker
 
 ```bash
 git clone
